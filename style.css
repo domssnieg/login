@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("chevron.png");
+    font-size: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    color:rgb(116, 116, 116);
+    letter-spacing: 3px;
+}
+
+#container {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(250, 250, 250, 0.603);
+    width: 300px;
+    padding: 50px;
+    padding: 20px;
+    margin-top: 120px;
+    border-radius: 50px;
+    border: rgba(173, 173, 173, 0.774) 3px solid;
+    text-align: center;
+    -webkit-box-shadow: 3px 3px 15px -5px rgba(127,127,127,0.81); 
+    box-shadow: 3px 3px 15px -5px rgba(127,127,127,0.81);
+}
+
+input[type=text],
+input[type=password]{
+    width:150px;
+    background-color: rgb(241, 241, 241);
+    color: #666;
+    border: 2px solid rgba(156, 156, 156, 0.81);
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Big Shoulders Display', cursive;
+    outline: none;
+    margin-top: 20px;
+}
+input[type=text]:focus,
+input[type=password]:focus{
+    -webkit-box-shadow: 0px 0px 10px -5px rgb(0, 0, 0); 
+    box-shadow: 0px 0px 10px -5px rgb(0, 0, 0);
+    border: 2px solid rgb(35, 32, 54);
+    color:rgb(35, 32, 54);
+}
+
+input[type=submit]{
+    width: 150px;
+    font-size: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    background-color: rgb(35, 32, 54);
+    color: rgba(255, 255, 255, 0.932);
+    padding: 15px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(69, 63, 109);
+}
+
+input[type=submit]:focus{
+    -webkit-box-shadow: 0px 0px 15px 2px rgb(119, 119, 119); 
+    box-shadow: 0px 0px 15px 2px rgb(119, 119, 119);
+}
+
+input::-webkit-input-placeholder{
+    color:rgb(116, 116, 116);
+    padding-right: 10px;
+}
+
+input:focus::-webkit-input-placeholder{
+    color:rgb(69, 63, 109);
+    padding-right: 10px;
+}
+
+input:-moz-placeholder{
+    color:rgb(116, 116, 116);
+    padding-right: 10px;
+}
+
+input:focus:-moz-placeholder{
+    color:rgb(69, 63, 109);
+    padding-right: 10px;
+}
+
+input::-moz-placeholder{
+    color:rgb(116, 116, 116);
+    padding-right: 10px;
+}
+
+input::-moz-placeholder{
+    color:rgb(69, 63, 109);
+    padding-right: 10px;
+}
+
+input:-ms-input-placeholder{
+    color:rgb(116, 116, 116);
+    padding-right: 10px;
+}
+
+input:focus:-ms-input-placeholder{
+    color:rgb(69, 63, 109);
+    padding-right: 10px;
+}
